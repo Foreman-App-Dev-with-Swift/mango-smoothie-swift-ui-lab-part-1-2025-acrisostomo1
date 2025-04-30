@@ -95,12 +95,13 @@ struct ContentView: View {
         VStack(alignment: .leading) {
 //Work below in this VStack! ************
             Text("Mango Smoothie!")
-                .font(.subheadline)
+                .font(.callout)
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.leading)
             Text("Mango, Banana, Water")
                 .multilineTextAlignment(.trailing)
             Text("320 calories")
+                .font(.footnote)
                 .multilineTextAlignment(.trailing)
             
         
